@@ -1,0 +1,110 @@
+.main-container{
+    border: 3px solid green;
+    padding: 4px;
+    height: 320px;
+    width: 600px;
+}
+
+.first-block{
+    display: flex;
+    border: 3px solid blue;
+    margin: 4px;
+    height: 60px;
+    background-color: lightblue;
+}
+
+.box1, .box2, .box3{
+    border: 2px solid brown;
+    width: 100%;
+    margin: 4px;
+}
+
+.first-block div{
+    background-color: lightsalmon;
+}
+
+.box2{
+    display: flex;
+}
+
+.box2 div{
+    background-color: lightpink;
+}
+
+.box21, .box22{
+    border: 2px solid black;
+    width: 100%;
+}
+
+.box21{
+    margin-top: 2px;
+    margin-right: 0;
+    margin-bottom: 2px;
+    margin-left:2px;
+}
+
+.box22{
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-left: 0;
+}
+
+.second-block{
+    display: flex;
+    height: 150px;
+    margin-bottom: 20px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 20px;
+}
+
+.big-box{
+    width: 50%;
+    border: 2px solid brown;
+}
+
+.two-box-container{
+    display: flex;
+    margin-left: 2px;
+    flex-direction: column;
+    width: 50%;
+}
+
+.big-box, .small-box1, .small-box2{
+    background-color:lightcoral;
+}
+.small-box1{
+    border: 2px solid brown;
+    height: 100%;
+    margin-bottom: 1px;
+}
+
+.small-box2{
+    border: 2px solid brown;
+    height: 100%;
+    margin-top: 1px;  
+}
+
+.third-block{
+    display: flex;
+    border: 3px solid blue;
+    height: 50px;
+    margin: 4px;
+    background-color:lightblue;
+}
+
+.sub1, .sub4{
+    border: 2px solid lightslategray;
+    width: 30%;
+    margin: 2px;
+    background-color: whitesmoke;
+}
+
+.sub2, .sub3{
+    border: 2px solid brown;
+    width: 20%;
+    margin: 2px;
+    background-color: lightsalmon;
+}
+
